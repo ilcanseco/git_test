@@ -2,10 +2,35 @@
 
 #logo {
   text-align: center;
-  margin-top: 15em;
+  /* margin-top: 15em; */
   padding-bottom: 20px;
 }
 
 .search-form {
   text-align: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+.left-nav {
+  float: left;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.left-nav:hover {
+  text-decoration: underline;
+}
+
+.right-nav {
+  float: right;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.right-nav:hover {
+  text-decoration: underline;
 }
