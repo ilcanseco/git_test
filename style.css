@@ -19,18 +19,67 @@ nav ul li {
   float: left;
   padding: 2px;
   text-decoration: none;
+  color: black;
 }
 
 .left-nav:hover {
   text-decoration: underline;
+  color: #d4d3d3;
 }
 
 .right-nav {
   float: right;
   padding: 2px;
   text-decoration: none;
+  color: black;
 }
 
 .right-nav:hover {
   text-decoration: underline;
+  color: #d4d3d3;
+}
+
+.second-lang {
+  text-align: center;
+  text-decoration: none;
+}
+
+.second-lang a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #d4d3d3;
+}
+
+.foot-list li {
+  list-style-type: none;
+  display: inline;
+}
+
+.left-foot {
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.left-foot a:hover {
+  text-decoration: underline;
+  color: #d4d3d3;
+}
+
+.right-foot {
+  float: right;
+  padding: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.right-foot:hover {
+  text-decoration: underline;
+  color: #d4d3d3;
 }
